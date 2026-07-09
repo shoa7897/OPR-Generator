@@ -1,0 +1,6 @@
+{
+  "name": "One Page Report Generator",
+  "description": "Generator laporan one page A4 Bahasa Melayu untuk program sekolah dengan ciri muat naik gambar dan susun atur khas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

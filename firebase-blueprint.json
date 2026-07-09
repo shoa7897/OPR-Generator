@@ -1,0 +1,19 @@
+{
+  "entities": {
+    "ReportData": {
+      "title": "ReportData",
+      "description": "User's report data",
+      "type": "object",
+      "properties": {
+        "schoolName": { "type": "string" },
+        "logos": { "type": "array" }
+      }
+    }
+  },
+  "firestore": {
+    "users/{userId}": {
+      "schema": "#/entities/ReportData",
+      "description": "User report data"
+    }
+  }
+}

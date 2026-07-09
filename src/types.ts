@@ -1,0 +1,31 @@
+export interface ReportData {
+  themeColor: string;
+  secondaryColor: string;
+  schoolName: string;
+  logos: string[];
+  programTitle: string;
+  reportType: string;
+  tarikh: string;
+  masa: string;
+  tempat: string;
+  anjuran: string;
+  sasaran: string;
+  objektif: string;
+  aktiviti: string;
+  impak: string;
+  cadangan: string;
+  photos: string[];
+  preparedByName: string;
+  preparedByRole: string;
+  preparedDate: string;
+  showHeader?: boolean;
+  showFooter?: boolean;
+  showDateStamp?: boolean;
+  showProgramDetails?: boolean;
+  showObjektif?: boolean;
+  showAktiviti?: boolean;
+  showImpak?: boolean;
+  showCadangan?: boolean;
+  showPhotos?: boolean;
+  fontSize?: number;
+}
